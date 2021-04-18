@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'movieapirestcrud.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 import dj_database_url
-import decouple import config
+from decouple import config
 
 DATABASES = {
    # 'default': {
